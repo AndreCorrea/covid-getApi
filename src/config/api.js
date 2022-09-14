@@ -1,11 +1,9 @@
 import axios from 'axios'
 
-// const { REACT_APP_BASE_URL } = process.env
-const baseURL = "https://covid19.mathdro.id/api" // Temporário
+const { REACT_APP_BASE_URL } = process.env
 
 const api = axios.create({
-    // REACT_APP_BASE_URL
-    baseURL
+    REACT_APP_BASE_URL
 })
 
 export const showData = async () => {
