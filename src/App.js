@@ -15,7 +15,7 @@ function App() {
 			setFilteredResults(res.data)
 		})
 	}, [])
-	console.log(process.env.REACT_APP_BASE_URL)
+
 	const searchQuery = (searchValue) => {
 		let value = searchValue.trim().toLowerCase()
 		let result = [];
