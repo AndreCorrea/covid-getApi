@@ -35,7 +35,7 @@ function App() {
 
 			<div className="overflow-x-auto relative lg:w-9/12 m-auto mt-11">
 				<table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-					<thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+					<thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-white">
 						<tr>
 							<th scope="col" className="py-3 px-6">
 								Estados
@@ -50,11 +50,11 @@ function App() {
 							const incidentsConfirmed = numberFormat.format(elem.confirmed)
 
 							return (
-								<tr className="bg-white even:bg-gray-100" index={indice} key={indice}>
-									<th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+								<tr className="bg-white dark:bg-gray-900 even:bg-gray-100 dark:even:bg-gray-700" index={indice} key={indice}>
+									<th scope="row" className="py-4 px-6 font-medium whitespace-nowrap text-gray-900 dark:text-white">
 										{elem.provinceState}
 									</th>
-									<td className="py-4 px-6">
+									<td className="py-4 px-6 text-gray-600 dark:text-white">
 										{incidentsConfirmed}
 									</td>
 								</tr>
