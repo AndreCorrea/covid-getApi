@@ -7,7 +7,7 @@ const api = axios.create({
 })
 
 export const showData = async () => {
-    return api.get('countries/BR/confirmed').catch((err) => {
+    return api.get('/countries/BR/confirmed').catch((err) => {
         console.log(err)
     })
 }
