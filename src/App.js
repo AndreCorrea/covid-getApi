@@ -32,7 +32,7 @@ function App() {
 			<form className="lg:w-9/12 m-auto">
 				<InputField onChange={(e) => searchQuery(e.target.value)} placeholder="Pesquise por estados" />
 			</form>
-
+			
 			<div className="overflow-x-auto relative lg:w-9/12 m-auto mt-11">
 				<table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
 					<thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-white">
