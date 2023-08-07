@@ -1,4 +1,4 @@
-# Consumo da API da Covid-19 para avaliação e teste prático
+# Consumo da API da Covid-19
 
 Esta é uma forma básica de consumo da API da COVID-19. Para iniciar o uso basta seguir os passos abaixo: 
 
